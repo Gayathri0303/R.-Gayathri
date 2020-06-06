@@ -1,0 +1,9 @@
+list = [12, -7, 8, 10, -21]
+for num in list:
+    if num>=0:
+        print(num)
+list1 = [12, 14, -95, 3]
+for item in list1:
+    if item < 0:
+        list1.remove(item)
+        print(list)
