@@ -1,0 +1,9 @@
+ff = 0
+s = 1
+x = f+s
+print(f,s,end= " ")
+while x>=1:
+    next = f+s
+    print(next,end=" ")
+    f=s
+    s=next
