@@ -1,0 +1,22 @@
+print("1. Assigning elements to list")
+list1 = ["assigning", "elements", "to"]
+print(list1)
+list1.append("list")
+print(list1)
+print(" ")
+
+print("2. Accessing elements from tuple")
+tuple1 = ("accessing", "elements", "from", "tuple")
+print(tuple1)
+print(tuple1[2])
+print(" ")
+
+print("3. Deleting elements from dictionary")
+myDict = {
+    "Mona Lisa": "smile",
+    "Alexander": "great",
+    "Napolean": "Bonaparte"
+    }
+print(myDict)
+myDict.pop("Napolean")
+print(myDict)
