@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 %matplotlib inline
 data = pd.read_csv('gayathri.csv')
 print(data.head())
-a = data.iloc[3,2:].values
+a = data.iloc[3,3:].values
 a = a.reshape(3,2).astype('uint8')
 plt.imshow(a)
 df_x = data.iloc[:,1:]
