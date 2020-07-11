@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN/SIGNUP</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+.login{
+	height: 500px;
+	width: 500px;
+	background-color: transparent;
+	margin: auto;
+	font-family: Arial;
+}
+.emailandpassword{
+/*	height: 500px;
+	width: 500px;*/
+	position: relative; 
+	left: 30px;
+	top: 70px;
+	font-family: Arial;
+	font-size: 35px;
+	color: #0055FF;
+	outline: none;
+	border: none;
+}
+</style>
+</head>
+<body>
+	<!-- <img src="hi.png" style="height:500px; width:500px;" align="right"> -->
+<!-- Need to work on background -->
+<div class="login">
+
+		<u><b><h1 align="center" style="color: #0055FF; background-color: transparent; position: relative; top: 20px;"><img src="psychology.png" style="height: 30px;width:30px; position: relative; top: 7px">LOGIN/SIGNUP</h1></u></b> 
+<!-- <div class="emailandpassword"> -->
+	<form action="login.html" method="get" class="emailandpassword">
+		<b><label>EMAIL</label></b><br>
+		<input type="email" id="email" name="Email" size="50" required style="border-radius:20px; border: 2px solid black; height: 50px; position: relative; top: 5px; outline: none; text-align: center;" placeholder="123@example.com" pattern=".+@.+."><br>
+		<b><label style="position: relative; top: 50px">PASSWORD</label></b><br>
+		<input type="password" id="password"  name="Password" required style="border-radius: 20px; border: 2px solid black; position: relative; top: 55px; height: 50px; outline: none; text-align: center;" size="50" placeholder="*********">
+		<a href="signup.html"><input type="button" name="SIGNUP" value="SIGNUP" style="border-radius: 20px; color:black; background-color:#0055FF; border: none; font-size: 30px; cursor: pointer; outline: none; position: relative;  right: 300px; top: 150px"></a>
+		<input type="submit" name="login" value="LOGIN" style="border-radius: 20px; color:black; background-color:#0055FF; border: none; font-size: 30px; cursor: pointer; outline: none; position: relative; left: 300px; top: 100px"></form></div>
+</body>
+</html>
